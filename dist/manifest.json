@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Flow Weaver",
+  "version": "1.0.0",
+  "description": "Visual conversation flow builder for OneText platform",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "assets/icon.png"
+  },
+  "icons": {
+    "128": "assets/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.onetext.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+} 
