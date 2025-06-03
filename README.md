@@ -1,6 +1,9 @@
 # Flow Weaver
 
-A Chrome extension for visually building conversation flows for the OneText platform.
+A Chrome extension for visually building conversation flows that can be exported in JSON format.
+
+![image](https://github.com/user-attachments/assets/0d0221b1-59bb-4617-bb0d-98d41cee189d)
+
 
 ## Features
 
