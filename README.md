@@ -39,20 +39,6 @@ npm run build
 2. Enable "Developer mode" in the top right
 3. Click "Load unpacked" and select the `dist` directory from the project
 
-## Project Structure
-
-```
-flow-weaver/
-├── src/
-│   ├── components/     # React components
-│   ├── nodes/         # Custom node components
-│   ├── stores/        # State management
-│   ├── App.tsx        # Main application component
-│   └── main.tsx       # Application entry point
-├── public/            # Static assets
-├── manifest.json      # Chrome extension manifest
-└── package.json       # Project dependencies
-```
 
 ## Contributing
 
@@ -62,6 +48,3 @@ flow-weaver/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
